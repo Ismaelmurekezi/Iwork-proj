@@ -89,7 +89,7 @@
                       <p>
                   recursively dumps all the public properties of any type into a human .
                   Dump Utils. ServiceStack.Text has extension methods which 
-                        recursively dumps all the public properties of any type into a human .
+                        recursively dumps all the public properties of any type into a human
                         </p></br></br>
                         <button class="btn2b">OBJECTIVE</button>
                 </div>
