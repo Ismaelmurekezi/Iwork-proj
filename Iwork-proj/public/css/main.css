@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+  }
+  
+  .header {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+      font-weight: 500;
+      padding: 23px 0;
+  }
+  
+  .links a:hover {
+    border-bottom: 4px solid rgb(30, 107, 135);
+  }
+  .links a:active {
+    border-bottom: 4px solid rgb(30, 107, 135);
+  }
+  .btn button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .btn1{
+      background-color: rgb(30, 107, 135);
+      color: white;
+    border-radius: 10px;
+    border: none;
+  
+  }
+  .btn2{
+      background-color: #3498db;
+          /* color: white; */
+    border-radius: 10px;
+    border: none;
+  
+  }
+  .btn3{
+      background-color: #fff;
+    border: 1px solid rgb(30, 107, 135);
+  border-radius: 10px;
+  }
+  .btn3 , a{
+ color: #db3458;
+}
+
+
+  .btn2 ,a{
+    color: #fff;
+    text-decoration: none;
+  };
+ 
+  .btn button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  
+  }
+  /* =====================HOME=========== */
+  .contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+    /* box-shadow: 0 1px 15px rgba(0, 0, 0, 0.5); */
+  
+  }
+  .content1 {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+    
+  }
+  
+  .content1 h2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: rgb(30, 107, 135);
+  }
+  
+  .content1 p {
+    font-size: 16px;
+    color: black;
+  }
+  .content2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .search-form {
+    display: flex;
+    max-width: 400px;
+    margin: 30px -20px 0 0;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .btn-search{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  /* =============================================================== */
+  .vision {
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .vision1 {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .vision1 img {
+  max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .vision2 {
+    flex: 1;
+    padding: 0 20px;
+  float: left;
+  }
+  
+  .vision2 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .vision2 p {
+    font-size: 16px;
+    color: black;
+  }
+  .btn2b{
+      padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px; 
+    background-color: #3498db;
+   color: white;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .job-post-container{
+    display: flex;
+    justify-content: center;
+   margin-top: 3em;
+   
+  }
+  #job-post-form {
+    padding: 1em;
+    width: 850px;
+    height: 60em;
+    border: 1px solid #bbb5b5;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+   padding-left: 10em;
+   border-radius: 10px;
+   background-color: #fff;
+
+    
+  }
+  #job-post-title{
+    margin-left: 6em;
+    padding-bottom: 1em;
+    font-size: 25px;
+    color: #3498db;
+  }
+
+  #job-post-form >input{
+    width: 580px;
+    height: 40px;
+    margin-bottom: 7px;
+  }
+  #job-post-form >label{
+   font-size: 20px;
+   color: #333;
+  }
+  .job-post-btn{
+    width: 580px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .job-apply-container{
+      display: flex;
+    justify-content: center;
+   margin-top: 3em;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .links, .btn {
+      margin-top: 15px;
+      order: 1; /* Change the order for better mobile display */
+    }
+  
+    .btn button {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .header{
+      display: flex;
+      flex-direction: row;
+  }
